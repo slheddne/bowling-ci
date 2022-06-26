@@ -21,3 +21,5 @@ Teamcity est facilement configurable et son interface graphique le rend assez si
 Enfin, TeamCity dispose d'une communauté assez large et est bien documenté.
 
 C'est pour ces raisons que nous avons décidé de choisir cette solution.
+
+g
