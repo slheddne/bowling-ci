@@ -5,9 +5,11 @@ namespace BowlingGame.Test
     [TestClass]
     public class UnitTest1
     {
+
         [TestMethod]
-        public void TestMethod1()
+        public void can_create_game()
         {
+            var game = new Game();
         }
     }
 }
