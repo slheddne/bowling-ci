@@ -9,7 +9,22 @@ namespace BowlingGame.Test
         [TestMethod]
         public void can_create_game()
         {
+            // Arrange
             var game = new Game();
+        }
+
+        [TestMethod]
+        public void score_0_if_gutter_game()
+        {
+            // Arrange
+            var game = new Game();
+
+            // Act
+            for (var i = 0; i < 20; i++)
+                game.Roll(0);
+
+            // Assert
+            Assert.AreEqual(0, game.Score);
         }
     }
 }
