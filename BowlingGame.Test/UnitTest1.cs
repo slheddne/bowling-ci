@@ -26,5 +26,23 @@ namespace BowlingGame.Test
             // Assert
             Assert.AreEqual(0, game.Score);
         }
+
+        [TestMethod]
+        public void score_que_des_1()
+        {
+            // Arrange
+            var game = new Game();
+
+            // Act
+            for (var i = 0; i < 20; i++)
+            {
+                game.Roll(1);
+            }
+
+            // Assert
+            Assert.AreEqual(20, game.Score);
+
+
+        }
     }
 }
